@@ -1,0 +1,28 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        jcenter()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://maven.google.com' }
+        maven { url 'https://oss.jfrog.org/artifactory/oss-snapshot-local' }
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots/'
+            name 'OSS-Sonatype'
+        }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    }
+}
+rootProject.name = "HalleyWallet"
+include ':app'
+include ':HalleyPay'
