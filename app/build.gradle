@@ -8,11 +8,11 @@ plugins {
     id 'maven-publish'
 }
 android {
-    namespace 'ir.millennium.halleywallet'
+    namespace 'io.homangostar.halleywallet'
     compileSdk 34
 
     defaultConfig {
-        applicationId "ir.millennium.halleywallet"
+        applicationId "io.homangostar.halleywallet"
         minSdk 23
         targetSdk 34
         versionCode 1

@@ -9,7 +9,47 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff9520b4-9348-48a2-b615-532365031815" name="Changes" comment="" />
+    <list default="true" id="ff9520b4-9348-48a2-b615-532365031815" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/HalleyPay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/HalleyPay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/MySdk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/MySdk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/callback/CallbackGetSecretKey.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/callback/CallbackGetSecretKey.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/core/ui/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/core/ui/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/core/utils/AuxiliaryFunctionsManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/core/utils/AuxiliaryFunctionsManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/core/utils/HorizontalMarginItemDecoration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/core/utils/HorizontalMarginItemDecoration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/data/dataSource/local/sharedPrefrences/SharedPreferencesManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/data/dataSource/local/sharedPrefrences/SharedPreferencesManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/data/dataSource/remote/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/data/dataSource/remote/ApiService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/data/dataSource/remote/UiState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/data/dataSource/remote/UiState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/data/model/remote/SecretKeyModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/data/model/remote/SecretKeyModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/data/repository/remote/RemoteRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/data/repository/remote/RemoteRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/data/repository/remote/RetrofitClientImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/data/repository/remote/RetrofitClientImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/domain/entity/CardModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/domain/entity/CardModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/domain/entity/TypeLanguage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/domain/entity/TypeLanguage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/domain/entity/TypeTheme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/domain/entity/TypeTheme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/domain/repository/remote/RemoteRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/domain/repository/remote/RemoteRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/domain/usecase/GetSecretKeyUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/domain/usecase/GetSecretKeyUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/entity/ConfigModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/entity/ConfigModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/presentation/activity/BluetoothConfigActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/presentation/activity/BluetoothConfigActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/presentation/activity/HalleyPayActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/presentation/activity/HalleyPayActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/presentation/adapter/RcvCardsBankAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/presentation/utils/ConnectThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/presentation/utils/ConnectThread.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/presentation/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/presentation/utils/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/ir/github/halleypay/presentation/utils/FileInStorageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/presentation/utils/FileInStorageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/layout/activity_blurtooth_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/res/layout/activity_blurtooth_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/layout/activity_halley_pay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/res/layout/activity_halley_pay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/millennium/halleywallet/MyApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/homangostar/halleywallet/MyApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/millennium/halleywallet/presentation/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/homangostar/halleywallet/presentation/activity/MainActivity.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,33 +109,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile" />
-        <option value="resourceFile" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
         <option value="Class" />
         <option value="Kotlin Class" />
         <option value="valueResourceFile" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="Develop" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="SingleCard" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,7 +154,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="PsdUISettings">
@@ -343,11 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HalleyWallet [sourceJar]" />
         <item itemvalue="Gradle.HalleyWallet [publishing]" />
+        <item itemvalue="Gradle.HalleyWallet [publish]" />
         <item itemvalue="Gradle.HalleyWallet [publish[Publication]ToCustomMavenRepoRepository]" />
         <item itemvalue="Gradle.HalleyWallet [publish[Publication]ToCustomMavenRepoRepository Gradle]" />
-        <item itemvalue="Gradle.HalleyWallet [publish]" />
-        <item itemvalue="Gradle.HalleyWallet [sourceJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697795562207</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Initial Commit">
+      <created>1697881670895</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1697881670895</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -508,7 +542,8 @@
     <MESSAGE value="impl sdk v10" />
     <MESSAGE value="sdk before add sonaType" />
     <MESSAGE value="sdk ready for publish" />
-    <option name="LAST_COMMIT_MESSAGE" value="sdk ready for publish" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
