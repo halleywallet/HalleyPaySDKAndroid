@@ -22,6 +22,11 @@ dependencyResolutionManagement {
         }
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
     }
+    buildscript {
+        dependencies {
+            classpath 'io.github.gradle-nexus:publish-plugin:1.1.0'
+        }
+    }
 }
 rootProject.name = "HalleyWallet"
 include ':app'

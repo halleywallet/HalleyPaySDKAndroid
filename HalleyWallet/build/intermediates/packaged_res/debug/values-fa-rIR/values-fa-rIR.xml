@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">هالی ولت</string>
+    <string name="close_card_to_pos">برای پرداخت لطفا گوشی را نزدیک دستگاه کارت خوان کنید</string>
+    <string name="connect_to_pos">اتصال به دستگاه</string>
+    <string name="select_card">انتخاب کارت</string>
+    <string name="select_card_for_payment">جهت پرداخت وجه کارت خود را انتخاب کنید</string>
+</resources>

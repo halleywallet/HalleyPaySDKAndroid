@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="accent_color">#ff5470</color>
+    <color name="black_color">#000000</color>
+    <color name="color_green">#57C5C6</color>
+    <color name="gray_color">#E0E0EA</color>
+    <color name="half_transparent_primary_color">#7F3D5AA9</color>
+    <color name="main_background_color">#050B21</color>
+    <color name="navigation_color">#050B21</color>
+    <color name="pink_color">#FFDAD2</color>
+    <color name="primary_color">#050B21</color>
+    <color name="primary_dark_color">#0E2453</color>
+    <color name="red_color">#CC3333</color>
+    <color name="status_bar_color">#050B21</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_color">#FFFFFF</color>
+    <string name="app_name">Halley Wallet</string>
+    <string name="close_card_to_pos">To pay, please place the phone near the card reader</string>
+    <string name="connect_to_pos">Connect to pos</string>
+    <string name="select_card">Select Card</string>
+    <string name="select_card_for_payment">Select Card For Payment</string>
+    <style name="Base.Theme.HalleyWallet" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_color</item>
+        <item name="colorOnPrimary">@color/white_color</item>
+
+        <item name="android:windowBackground">@color/white_color</item>
+
+        
+        <item name="android:statusBarColor">@color/white_color</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">true</item>
+
+        
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">true</item>
+        <item name="android:navigationBarColor" ns1:targetApi="o_mr1">
+            @color/white_color
+        </item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:homeAsUpIndicator">@drawable/ic_back</item>
+
+    </style>
+    <style name="Theme.HalleyWallet" parent="Base.Theme.HalleyWallet">
+
+        <item name="android:windowBackground">@color/main_background_color</item>
+
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+
+        
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">false</item>
+        <item name="android:navigationBarColor" ns1:targetApi="o_mr1">
+            @color/navigation_color
+        </item>
+    </style>
+    <style name="Theme.WindowActivity" parent="android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    <style name="colorOnPrimary">
+        <item name="titleTextColor">@color/black_color</item>
+    </style>
+    <style name="toolbarStyle">
+        <item name="android:fontFamily">@font/dana_fa_num_bold</item>
+        <item name="android:textSize">@dimen/size_font_title3</item>
+    </style>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="accent_color">#ff5470</color>
+    <color name="black_color">#000000</color>
+    <color name="color_green">#57C5C6</color>
+    <color name="gray_color">#E0E0EA</color>
+    <color name="half_transparent_primary_color">#7F3D5AA9</color>
+    <color name="main_background_color">#050B21</color>
+    <color name="navigation_color">#050B21</color>
+    <color name="pink_color">#FFDAD2</color>
+    <color name="primary_color">#050B21</color>
+    <color name="primary_dark_color">#0E2453</color>
+    <color name="red_color">#CC3333</color>
+    <color name="status_bar_color">#050B21</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_color">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="biggest_size_font">24dp</dimen>
+    <dimen name="body_size_font">13dp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" ns1:override="true">14dp</dimen>
+    <dimen name="design_bottom_navigation_text_size" ns1:override="true">12dp</dimen>
+    <dimen name="design_navigation_icon_padding" ns1:override="true">0dp</dimen>
+    <dimen name="max_height_editText">55dp</dimen>
+    <dimen name="min_height_button_view">60dp</dimen>
+    <dimen name="min_height_editText">48dp</dimen>
+    <dimen name="min_height_textView">33dp</dimen>
+    <dimen name="min_height_toolbar">64dp</dimen>
+    <dimen name="min_width_button_view">56dp</dimen>
+    <dimen name="size_font_help">22dp</dimen>
+    <dimen name="size_font_title1">18dp</dimen>
+    <dimen name="size_font_title2">17dp</dimen>
+    <dimen name="size_font_title3">14dp</dimen>
+    <dimen name="size_height_button">48dp</dimen>
+    <dimen name="size_margin_editText_from_side">90dp</dimen>
+    <dimen name="size_radius_button">8dp</dimen>
+    <dimen name="size_radius_card_view">10dp</dimen>
+    <dimen name="size_radius_dialog_Fragment">40dp</dimen>
+    <dimen name="size_radius_editText">10dp</dimen>
+    <dimen name="size_stroke_width_button">1.5dp</dimen>
+    <dimen name="size_title_button">14dp</dimen>
+    <dimen name="small_size_font">11dp</dimen>
+    <dimen name="very_small_size_font">9dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin">38dp</dimen>
+    <dimen name="viewpager_next_item_visible">26dp</dimen>
+    <string name="app_name">HalleyWallet</string>
+    <string name="close_card_to_pos">To pay, please place the phone near the card reader</string>
+    <string name="connect_to_pos">Connect to pos</string>
+    <string name="select_card">Select Card</string>
+    <string name="select_card_for_payment">Select Card For Payment</string>
+    <style name="Base.Theme.HalleyWallet" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_color</item>
+        <item name="colorOnPrimary">@color/white_color</item>
+
+        <item name="android:windowBackground">@color/white_color</item>
+
+        
+        <item name="android:statusBarColor">@color/white_color</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">true</item>
+
+        
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">true</item>
+        <item name="android:navigationBarColor" ns1:targetApi="o_mr1">
+            @color/white_color
+        </item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:homeAsUpIndicator">@drawable/ic_back</item>
+
+    </style>
+    <style name="Theme.HalleyWallet" parent="Base.Theme.HalleyWallet">
+
+        <item name="android:windowBackground">@color/main_background_color</item>
+
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+
+        
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">false</item>
+        <item name="android:navigationBarColor" ns1:targetApi="o_mr1">
+            @color/navigation_color
+        </item>
+
+    </style>
+    <style name="Theme.WindowActivity" parent="android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    <style name="colorOnPrimary">
+        <item name="titleTextColor">@color/black_color</item>
+        <item name="android:textSize">@dimen/size_font_title3</item>
+    </style>
+    <style name="toolbarStyle">
+        <item name="android:fontFamily">@font/dana_fa_num_bold</item>
+        <item name="android:textSize">@dimen/size_font_title3</item>
+    </style>
+</resources>
