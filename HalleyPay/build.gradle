@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    namespace 'io.github.halleypay'
+    namespace 'io.github.halleywallet'
     compileSdk 34
 
     defaultConfig {

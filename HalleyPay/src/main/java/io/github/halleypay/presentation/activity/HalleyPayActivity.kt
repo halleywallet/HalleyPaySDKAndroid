@@ -20,11 +20,11 @@ import androidx.transition.Transition
 import androidx.transition.TransitionManager
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.card.MaterialCardView
-import io.github.halleypay.R
 import io.github.halleypay.core.ui.BaseActivity
 import io.github.halleypay.core.utils.HorizontalMarginItemDecoration
 import io.github.halleypay.domain.entity.CardModel
 import io.github.halleypay.presentation.adapter.RcvCardsBankAdapter
+import io.github.halleywallet.R
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlin.math.abs

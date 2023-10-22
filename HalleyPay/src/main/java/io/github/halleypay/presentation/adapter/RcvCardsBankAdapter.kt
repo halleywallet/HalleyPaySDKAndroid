@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.card.MaterialCardView
-import io.github.halleypay.R
+import io.github.halleywallet.R
 import io.github.halleypay.domain.entity.CardModel
 
 class RcvCardsBankAdapter(
