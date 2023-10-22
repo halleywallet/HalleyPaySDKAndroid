@@ -1,4 +1,4 @@
-io.github.halleypay
+io.github.halleywallet
 color accent_color
 color black_color
 color color_green

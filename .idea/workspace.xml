@@ -10,22 +10,856 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff9520b4-9348-48a2-b615-532365031815" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/publish-module.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/publish-root.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HalleyPay/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/layout/activity_halley_pay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyPay/src/main/res/layout/activity_halley_pay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/HalleyPay$getSecretKey$$inlined$map$1$2$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/HalleyPay$getSecretKey$$inlined$map$1$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/HalleyPay$getSecretKey$$inlined$map$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/HalleyPay$getSecretKey$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/HalleyPay$getSecretKey$3.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/HalleyPay.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/MySdk.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/callback/CallbackGetSecretKey.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/core/ui/BaseActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/core/utils/AuxiliaryFunctionsManager.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/core/utils/HorizontalMarginItemDecoration.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/dataSource/local/sharedPrefrences/SharedPreferencesManager.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/dataSource/remote/ApiService.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/dataSource/remote/UiState$Error.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/dataSource/remote/UiState$Initialization.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/dataSource/remote/UiState$Loading.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/dataSource/remote/UiState$Success.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/dataSource/remote/UiState.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/model/remote/SecretKeyDataModel.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/model/remote/SecretKeyModel.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/repository/remote/RemoteRepositoryImpl$getSecretKey$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/repository/remote/RemoteRepositoryImpl.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$Companion.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$getUnsafeOkHttpClientNonBasicAuthInterceptor$trustAllCerts$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/domain/entity/CardModel.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/domain/entity/TypeLanguage$Companion.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/domain/entity/TypeLanguage.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/domain/entity/TypeTheme$Companion.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/domain/entity/TypeTheme.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/domain/repository/remote/RemoteRepository.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/domain/usecase/GetSecretKeyUseCase.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/entity/ConfigModel.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/activity/BluetoothConfigActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$changeScreen$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$durationAnimation$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$setupCarouselForPortrait$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/activity/HalleyPayActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$CardListViewHolder.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$Companion.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$OnCardClickListener.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/utils/ConnectThread$mSocket$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/utils/ConnectThread.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/utils/Constants.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleypay/presentation/utils/FileInStorageManager.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/debug/io/github/halleywallet/BuildConfig.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/3454316884e19777fc467bb6a44e6beb/transformed/desugar_graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/.transforms/f24dbc5105a9bb496d85de2bf6f0e53a/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/generated/source/buildConfig/debug/io/github/halleywallet/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/aar_metadata/debug/aar-metadata.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/drawable-v24_ic_launcher_foreground.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/drawable_bg_button.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/drawable_ic_back.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/drawable_ic_done.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/drawable_ic_launcher_background.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/drawable_ic_phone.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/drawable_ic_tick_done.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/drawable_payment_image_wallet.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/drawable_phone.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/font_dan_fa_num_regular.ttf.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/font_dana_en_num_bold.ttf.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/font_dana_en_num_regular.ttf.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/font_dana_fa_num_bold.ttf.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/layout_activity_blurtooth_config.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/layout_activity_halley_pay.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/layout_item_bank_card.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-anydpi-v26_ic_launcher.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-anydpi-v26_ic_launcher_round.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-hdpi-v4_ic_launcher.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-hdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-mdpi-v4_ic_launcher.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-mdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_bank_card.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_bank_card_second.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_card1.jpg.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_card2.jpg.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_card3.jpg.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_ic_launcher.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_bank_card.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_bank_card_second.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_card1.jpg.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_card2.jpg.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_card3.jpg.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_ic_launcher.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_bank_card.png.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_card1.jpg.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_card2.jpg.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_card3.jpg.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_ic_launcher.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/xml_backup_rules.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/compiled_local_resources/debug/out/xml_data_extraction_rules.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-fa-rIR/values-fa-rIR.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-large-v4/values-large-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-night-v8/values-night-v8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-normal-v4/values-normal-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/incremental/generateSafeArgsDebug/file_mappings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/javac/debug/classes/io/github/halleypay/presentation/utils/FileInStorageManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/javac/debug/classes/io/github/halleywallet/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/library_assets/debug/out/fonts/DanaEnNumBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/library_assets/debug/out/fonts/DanaEnNumRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/library_assets/debug/out/fonts/DanaFaNumBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/library_assets/debug/out/fonts/DanaFaNumRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/library_java_res/debug/res.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/navigation_json/debug/navigation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_manifests/debug/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/drawable/bg_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/drawable/ic_back.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/drawable/ic_done.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/drawable/ic_phone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/drawable/ic_tick_done.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/drawable/payment_image_wallet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/drawable/phone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/font/dan_fa_num_regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/font/dana_en_num_bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/font/dana_en_num_regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/font/dana_fa_num_bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/layout/activity_blurtooth_config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/layout/activity_halley_pay.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/layout/item_bank_card.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-hdpi-v4/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-hdpi-v4/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-mdpi-v4/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-mdpi-v4/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/bank_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/bank_card_second.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/card1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/card2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/card3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xhdpi-v4/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/bank_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/bank_card_second.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/card1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/card2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/card3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxhdpi-v4/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxxhdpi-v4/bank_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxxhdpi-v4/card1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxxhdpi-v4/card2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxxhdpi-v4/card3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxxhdpi-v4/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/mipmap-xxxhdpi-v4/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/values-fa-rIR/values-fa-rIR.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/values-large-v4/values-large-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/values-night-v8/values-night-v8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/values-normal-v4/values-normal-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/values-xlarge-v4/values-xlarge-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/packaged_res/debug/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/META-INF/HalleyPay_debug.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/HalleyPay$getSecretKey$$inlined$map$1$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/HalleyPay$getSecretKey$$inlined$map$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/HalleyPay$getSecretKey$$inlined$map$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/HalleyPay$getSecretKey$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/HalleyPay$getSecretKey$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/HalleyPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/MySdk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/callback/CallbackGetSecretKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/core/ui/BaseActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/core/utils/AuxiliaryFunctionsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/core/utils/HorizontalMarginItemDecoration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/local/sharedPrefrences/SharedPreferencesManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/ApiService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState$Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState$Initialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState$Loading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState$Success.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/model/remote/SecretKeyDataModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/model/remote/SecretKeyModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RemoteRepositoryImpl$getSecretKey$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RemoteRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$getUnsafeOkHttpClientNonBasicAuthInterceptor$trustAllCerts$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/CardModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/TypeLanguage$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/TypeLanguage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/TypeTheme$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/TypeTheme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/repository/remote/RemoteRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/usecase/GetSecretKeyUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/entity/ConfigModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/activity/BluetoothConfigActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$changeScreen$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$durationAnimation$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$setupCarouselForPortrait$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/activity/HalleyPayActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$CardListViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$OnCardClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/utils/ConnectThread$mSocket$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/utils/ConnectThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/utils/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/utils/FileInStorageManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/runtime_library_classes_dir/debug/io/github/halleywallet/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/kaptGenerateStubsDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kapt3/incApCache/debug/ap-classpath-entries.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/META-INF/HalleyPay_debug.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/HalleyPay$getSecretKey$$inlined$map$1$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/HalleyPay$getSecretKey$$inlined$map$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/HalleyPay$getSecretKey$$inlined$map$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/HalleyPay$getSecretKey$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/HalleyPay$getSecretKey$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/HalleyPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/MySdk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/callback/CallbackGetSecretKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/core/ui/BaseActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/core/utils/AuxiliaryFunctionsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/core/utils/HorizontalMarginItemDecoration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/local/sharedPrefrences/SharedPreferencesManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/ApiService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState$Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState$Initialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState$Loading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState$Success.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/model/remote/SecretKeyDataModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/model/remote/SecretKeyModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RemoteRepositoryImpl$getSecretKey$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RemoteRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$getUnsafeOkHttpClientNonBasicAuthInterceptor$trustAllCerts$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/CardModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/TypeLanguage$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/TypeLanguage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/TypeTheme$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/TypeTheme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/repository/remote/RemoteRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/usecase/GetSecretKeyUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/entity/ConfigModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/activity/BluetoothConfigActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$changeScreen$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$durationAnimation$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$setupCarouselForPortrait$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/activity/HalleyPayActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$CardListViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$OnCardClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/utils/ConnectThread$mSocket$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/utils/ConnectThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/utils/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/consumer-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/assets/fonts/DanaEnNumBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/assets/fonts/DanaEnNumRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/assets/fonts/DanaFaNumBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/assets/fonts/DanaFaNumRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/HalleyPay.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/MySdk.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/callback/CallbackGetSecretKey.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/core/ui/BaseActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/core/utils/AuxiliaryFunctionsManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/core/utils/HorizontalMarginItemDecoration.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/data/dataSource/local/sharedPrefrences/SharedPreferencesManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/data/dataSource/remote/ApiService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/data/dataSource/remote/UiState.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/data/model/remote/SecretKeyModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/data/repository/remote/RemoteRepositoryImpl.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/data/repository/remote/RetrofitClientImpl.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/domain/entity/CardModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/domain/entity/TypeLanguage.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/domain/entity/TypeTheme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/domain/repository/remote/RemoteRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/domain/usecase/GetSecretKeyUseCase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/entity/ConfigModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/presentation/activity/BluetoothConfigActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/presentation/activity/HalleyPayActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/presentation/utils/ConnectThread.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/presentation/utils/Constants.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/java/io/github/halleypay/presentation/utils/FileInStorageManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/drawable/bg_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/drawable/ic_back.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/drawable/ic_done.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/drawable/ic_phone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/drawable/ic_tick_done.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/drawable/payment_image_wallet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/drawable/phone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/font/dan_fa_num_regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/font/dana_en_num_bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/font/dana_en_num_regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/font/dana_fa_num_bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/layout/activity_blurtooth_config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/layout/activity_halley_pay.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/layout/item_bank_card.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xhdpi/bank_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xhdpi/bank_card_second.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xhdpi/card1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xhdpi/card2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xhdpi/card3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxhdpi/bank_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxhdpi/bank_card_second.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxhdpi/card1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxhdpi/card2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxhdpi/card3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxxhdpi/bank_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxxhdpi/card1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxxhdpi/card2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxxhdpi/card3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/values-fa-rIR/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/values-large/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/values-normal/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/values-xlarge/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyPay/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/generated/source/buildConfig/debug/io/github/halleypay/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compile_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable-v24_ic_launcher_foreground.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable-v24_ic_launcher_foreground.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_bg_button.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_bg_button.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_ic_back.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_ic_back.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_ic_done.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_ic_done.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_ic_launcher_background.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_ic_launcher_background.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_ic_phone.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_ic_phone.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_ic_tick_done.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_ic_tick_done.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_payment_image_wallet.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_payment_image_wallet.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_phone.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/drawable_phone.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/font_dan_fa_num_regular.ttf.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/font_dan_fa_num_regular.ttf.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/font_dana_en_num_bold.ttf.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/font_dana_en_num_bold.ttf.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/font_dana_en_num_regular.ttf.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/font_dana_en_num_regular.ttf.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/font_dana_fa_num_bold.ttf.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/font_dana_fa_num_bold.ttf.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/layout_activity_blurtooth_config.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/layout_activity_blurtooth_config.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/layout_activity_halley_pay.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/layout_activity_halley_pay.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/layout_item_bank_card.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/layout_item_bank_card.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-anydpi-v26_ic_launcher.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-anydpi-v26_ic_launcher.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-anydpi-v26_ic_launcher_round.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-anydpi-v26_ic_launcher_round.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-hdpi-v4_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-hdpi-v4_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-hdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-hdpi-v4_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-mdpi-v4_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-mdpi-v4_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-mdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-mdpi-v4_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_bank_card.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_bank_card.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_bank_card_second.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_bank_card_second.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_card1.jpg.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_card1.jpg.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_card2.jpg.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_card2.jpg.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_card3.jpg.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_card3.jpg.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xhdpi-v4_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_bank_card.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_bank_card.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_bank_card_second.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_bank_card_second.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_card1.jpg.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_card1.jpg.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_card2.jpg.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_card2.jpg.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_card3.jpg.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_card3.jpg.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxhdpi-v4_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_bank_card.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_bank_card.png.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_card1.jpg.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_card1.jpg.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_card2.jpg.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_card2.jpg.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_card3.jpg.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_card3.jpg.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_ic_launcher.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_ic_launcher.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_ic_launcher_round.webp.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/mipmap-xxxhdpi-v4_ic_launcher_round.webp.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/xml_backup_rules.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/xml_backup_rules.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/xml_data_extraction_rules.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/compiled_local_resources/debug/out/xml_data_extraction_rules.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-fa-rIR/values-fa-rIR.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-large-v4/values-large-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-night-v8/values-night-v8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-normal-v4/values-normal-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/library_java_res/debug/res.jar" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/library_java_res/debug/res.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/packaged_manifests/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/packaged_manifests/debug/output-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/packaged_res/debug/layout/activity_halley_pay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/packaged_res/debug/layout/activity_halley_pay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/META-INF/HalleyPay_debug.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/HalleyPay.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/HalleyPay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/MySdk.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/MySdk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/callback/CallbackGetSecretKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/callback/CallbackGetSecretKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/core/ui/BaseActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/core/ui/BaseActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/core/utils/AuxiliaryFunctionsManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/core/utils/AuxiliaryFunctionsManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/core/utils/HorizontalMarginItemDecoration.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/core/utils/HorizontalMarginItemDecoration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/local/sharedPrefrences/SharedPreferencesManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/local/sharedPrefrences/SharedPreferencesManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/ApiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/ApiService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState$Error.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState$Error.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState$Initialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState$Initialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState$Loading.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState$Loading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState$Success.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState$Success.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/dataSource/remote/UiState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/model/remote/SecretKeyDataModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/model/remote/SecretKeyDataModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/model/remote/SecretKeyModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/model/remote/SecretKeyModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RemoteRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RemoteRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$getUnsafeOkHttpClientNonBasicAuthInterceptor$trustAllCerts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$getUnsafeOkHttpClientNonBasicAuthInterceptor$trustAllCerts$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/CardModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/CardModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/TypeLanguage$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/TypeLanguage$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/TypeLanguage.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/TypeLanguage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/TypeTheme$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/TypeTheme$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/TypeTheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/entity/TypeTheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/repository/remote/RemoteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/repository/remote/RemoteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/usecase/GetSecretKeyUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/domain/usecase/GetSecretKeyUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/entity/ConfigModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/entity/ConfigModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/activity/BluetoothConfigActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/activity/BluetoothConfigActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$setupCarouselForPortrait$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$setupCarouselForPortrait$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/activity/HalleyPayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/activity/HalleyPayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$CardListViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$CardListViewHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$OnCardClickListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$OnCardClickListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/utils/ConnectThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/utils/ConnectThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/utils/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/runtime_library_classes_dir/debug/io/github/halleypay/presentation/utils/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/compileDebugKotlin/local-state/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/META-INF/HalleyPay_debug.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/HalleyPay.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/HalleyPay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/MySdk.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/MySdk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/callback/CallbackGetSecretKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/callback/CallbackGetSecretKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/core/ui/BaseActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/core/ui/BaseActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/core/utils/AuxiliaryFunctionsManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/core/utils/AuxiliaryFunctionsManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/core/utils/HorizontalMarginItemDecoration.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/core/utils/HorizontalMarginItemDecoration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/local/sharedPrefrences/SharedPreferencesManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/local/sharedPrefrences/SharedPreferencesManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/ApiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/ApiService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState$Error.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState$Error.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState$Initialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState$Initialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState$Loading.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState$Loading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState$Success.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState$Success.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/dataSource/remote/UiState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/model/remote/SecretKeyDataModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/model/remote/SecretKeyDataModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/model/remote/SecretKeyModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/model/remote/SecretKeyModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RemoteRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RemoteRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$getUnsafeOkHttpClientNonBasicAuthInterceptor$trustAllCerts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl$getUnsafeOkHttpClientNonBasicAuthInterceptor$trustAllCerts$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/data/repository/remote/RetrofitClientImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/CardModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/CardModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/TypeLanguage$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/TypeLanguage$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/TypeLanguage.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/TypeLanguage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/TypeTheme$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/TypeTheme$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/TypeTheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/entity/TypeTheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/repository/remote/RemoteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/repository/remote/RemoteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/usecase/GetSecretKeyUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/domain/usecase/GetSecretKeyUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/entity/ConfigModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/entity/ConfigModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/activity/BluetoothConfigActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/activity/BluetoothConfigActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$setupCarouselForPortrait$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/activity/HalleyPayActivity$setupCarouselForPortrait$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/activity/HalleyPayActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/activity/HalleyPayActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$CardListViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$CardListViewHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$OnCardClickListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter$OnCardClickListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/utils/ConnectThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/utils/ConnectThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/utils/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build/tmp/kotlin-classes/debug/io/github/halleypay/presentation/utils/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/src/main/java/io/github/halleypay/presentation/activity/HalleyPayActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/src/main/java/io/github/halleypay/presentation/activity/HalleyPayActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/src/main/java/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/src/main/java/io/github/halleypay/presentation/adapter/RcvCardsBankAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HalleyWallet/src/main/res/layout/activity_halley_pay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/src/main/res/layout/activity_halley_pay.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/1/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/1/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/10/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/10/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/11/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/11/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/12/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/12/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/13/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/13/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/14/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/14/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/2/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/2/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/5/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/5/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/7/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/7/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/9/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/9/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-af/values-af.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-am/values-am.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ar/values-ar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-as/values-as.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-az/values-az.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-b+es+419/values-b+es+419.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-be/values-be.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bg/values-bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bn/values-bn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bs/values-bs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ca/values-ca.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-cs/values-cs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-da/values-da.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-de/values-de.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-el/values-el.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-es/values-es.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-et/values-et.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-eu/values-eu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fa-rIR/values-fa-rIR.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fa/values-fa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fi/values-fi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fr/values-fr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-gl/values-gl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-gu/values-gu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h320dp-port-v13/values-h320dp-port-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h360dp-land-v13/values-h360dp-land-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h550dp-port-v13/values-h550dp-port-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hi/values-hi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hr/values-hr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hu/values-hu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hy/values-hy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-in/values-in.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-is/values-is.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-it/values-it.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-iw/values-iw.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ja/values-ja.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ka/values-ka.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-kk/values-kk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-km/values-km.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-kn/values-kn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ko/values-ko.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ky/values-ky.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-land/values-land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ldrtl-v17/values-ldrtl-v17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lo/values-lo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lt/values-lt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lv/values-lv.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mk/values-mk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ml/values-ml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mn/values-mn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mr/values-mr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ms/values-ms.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-my/values-my.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-nb/values-nb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ne/values-ne.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-nl/values-nl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-normal-v4/values-normal-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-or/values-or.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pa/values-pa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pl/values-pl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-port/values-port.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt/values-pt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ro/values-ro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-si/values-si.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sk/values-sk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sl/values-sl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sq/values-sq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sr/values-sr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sv/values-sv.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sw/values-sw.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ta/values-ta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-te/values-te.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-th/values-th.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-tl/values-tl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-tr/values-tr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-uk/values-uk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ur/values-ur.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-uz/values-uz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v16/values-v16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v17/values-v17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v18/values-v18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v21/values-v21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v22/values-v22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v23/values-v23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v24/values-v24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v25/values-v25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v26/values-v26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v28/values-v28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v31/values-v31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-vi/values-vi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w320dp-land-v13/values-w320dp-land-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w600dp-land-v13/values-w600dp-land-v13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zu/values-zu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-large-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-large-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-normal-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-normal-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-xlarge-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-xlarge-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/source_set_path_map/debug/file-map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/source_set_path_map/debug/file-map.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/local-state/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/publish-module.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/publish-module.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +867,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R5CRB1LZH3D]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -57,6 +891,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="HalleyWallet" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HalleyWallet" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -138,7 +977,6 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "ToolWindowServices.ShowToolbar": "false",
     "android-custom-viewC:/Users/Mojtaba/.gradle/caches/modules-2/files-2.1/me.relex/circleindicator/2.1.6/3e3f812a70cfdaaa3fa76dbb109b443ff9b96407/circleindicator-2.1.6-sources.jar!/me/relex/circleindicator/CircleIndicator3.java_SELECTED": "CircleIndicator3",
-    "android.gradle.sync.needed": "true",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
     "last_opened_file_path": "D:/android-project/runnigApp/HalleyWallet/HalleyWallet",
@@ -194,9 +1032,10 @@
       <command value="gradle publish[Publication]ToCustomMavenRepoRepository" />
       <command value="gradle publishing" />
       <command value="gradle publish" />
+      <command value="gradle halleywallet:publishReleasePublicationToMavenRepository" />
     </option>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Gradle.HalleyWallet [halleywallet:publishReleasePublicationToMavenRepository]">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="HalleyWallet.app.main" />
       <option name="DEPLOY" value="true" />
@@ -254,6 +1093,27 @@
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="HalleyWallet [halleywallet:publishReleasePublicationToMavenRepository]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="halleywallet:publishReleasePublicationToMavenRepository" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="HalleyWallet [publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -319,27 +1179,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HalleyWallet [publishing]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="publishing" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="HalleyWallet [sourceJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -363,11 +1202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HalleyWallet [sourceJar]" />
-        <item itemvalue="Gradle.HalleyWallet [publishing]" />
-        <item itemvalue="Gradle.HalleyWallet [publish]" />
         <item itemvalue="Gradle.HalleyWallet [publish[Publication]ToCustomMavenRepoRepository]" />
         <item itemvalue="Gradle.HalleyWallet [publish[Publication]ToCustomMavenRepoRepository Gradle]" />
+        <item itemvalue="Gradle.HalleyWallet [publish]" />
+        <item itemvalue="Gradle.HalleyWallet [halleywallet:publishReleasePublicationToMavenRepository]" />
+        <item itemvalue="Gradle.HalleyWallet [sourceJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +1352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697963574979</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ready for publish">
+      <created>1697973537299</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697973537299</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +1393,8 @@
     <MESSAGE value="sdk before add sonaType" />
     <MESSAGE value="sdk ready for publish" />
     <MESSAGE value="change package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="change package name" />
+    <MESSAGE value="ready for publish" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready for publish" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

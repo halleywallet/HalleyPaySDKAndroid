@@ -24,7 +24,7 @@ io.homangostar.halleywallet.app-coordinatorlayout-1.1.0-22 C:\Users\Mojtaba\.gra
 io.homangostar.halleywallet.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-23 C:\Users\Mojtaba\.gradle\caches\transforms-3\c9a0f20555b6282f70590498ebcbf262\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
 io.homangostar.halleywallet.app-jetified-appcompat-resources-1.5.1-24 C:\Users\Mojtaba\.gradle\caches\transforms-3\ec14786f5df24e5195b5b134c58f2a75\transformed\jetified-appcompat-resources-1.5.1\res
 io.homangostar.halleywallet.app-material-1.5.0-25 C:\Users\Mojtaba\.gradle\caches\transforms-3\ec6d4d4fbd037b4a47d5dd7d1604c312\transformed\material-1.5.0\res
-io.homangostar.halleywallet.app-packaged_res-26 D:\android-project\runnigApp\HalleyWallet\HalleyPay\build\intermediates\packaged_res\debug
+io.homangostar.halleywallet.app-packaged_res-26 D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\packaged_res\debug
 io.homangostar.halleywallet.app-pngs-27 D:\android-project\runnigApp\HalleyWallet\app\build\generated\res\pngs\debug
 io.homangostar.halleywallet.app-resValues-28 D:\android-project\runnigApp\HalleyWallet\app\build\generated\res\resValues\debug
 io.homangostar.halleywallet.app-rs-29 D:\android-project\runnigApp\HalleyWallet\app\build\generated\res\rs\debug

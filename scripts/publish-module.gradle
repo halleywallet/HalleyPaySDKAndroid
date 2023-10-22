@@ -65,14 +65,9 @@ afterEvaluate {
     }
 }
 
-//ext["signing.keyId"] = rootProject.ext["signing.keyId"]
-//ext["signing.password"] = rootProject.ext["signing.password"]
-//ext["signing.secretKeyRingFile"] = rootProject.ext["signing.secretKeyRingFile"]
-
-
-ext["signing.keyId"] = '4DC86EC8'
-ext["signing.password"] = 'Mm13741122'
-ext["signing.secretKeyRingFile"] = 'SecretRingKey.gpg'
+ext["signing.keyId"] = rootProject.ext["signing.keyId"]
+ext["signing.password"] = rootProject.ext["signing.password"]
+ext["signing.secretKeyRingFile"] = rootProject.ext["signing.secretKeyRingFile"]
 
 signing {
     sign publishing.publications
