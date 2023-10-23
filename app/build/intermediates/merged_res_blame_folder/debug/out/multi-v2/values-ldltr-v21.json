@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "io.homangostar.halleywallet.app-mergeDebugResources-30:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "io.homangostar.halleywallet.app-mergeDebugResources-29:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mojtaba\\.gradle\\caches\\transforms-3\\190339830780586b8e450d9a499891fc\\transformed\\appcompat-1.5.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\Mojtaba\\.gradle\\caches\\transforms-3\\a30146ef885a0d4c538c5470219efa2a\\transformed\\appcompat-1.5.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

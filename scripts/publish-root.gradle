@@ -1,13 +1,20 @@
 // Create variables with empty default values
-ext["signing.keyId"] = '4DC86EC8'
-ext["signing.password"] = 'Mm13741122'
-ext["signing.secretKeyRingFile"] = 'SecretRingKey.gpg'
-//ext["ossrhUsername"] = 'halleywallet'
-//ext["ossrhPassword"] = 'St13741122!@'
-//ext["sonatypeStagingProfileId"] = '4aa472a6ba1583'
-ext["ossrhUsername"] = BuildConfig.ossrhUsername
-ext["ossrhPassword"] = BuildConfig.ossrhPassword
-ext["sonatypeStagingProfileId"] = BuildConfig.sonatypeStagingProfileId
+//ext["signing.keyId"] = '4DC86EC8'
+//ext["signing.password"] = 'Mm13741122'
+//ext["signing.secretKeyRingFile"] = 'SecretRingKey.gpg'
+////ext["ossrhUsername"] = 'halleywallet'
+////ext["ossrhPassword"] = 'St13741122!@'
+////ext["sonatypeStagingProfileId"] = '4aa472a6ba1583'
+//ext["ossrhUsername"] = BuildConfig.ossrhUsername
+//ext["ossrhPassword"] = BuildConfig.ossrhPassword
+//ext["sonatypeStagingProfileId"] = BuildConfig.sonatypeStagingProfileId
+
+ext["signing.keyId"] = ''
+ext["signing.password"] = ''
+ext["signing.secretKeyRingFile"] = ''
+ext["ossrhUsername"] = ''
+ext["ossrhPassword"] = ''
+ext["sonatypeStagingProfileId"] = ''
 
 File secretPropsFile = project.rootProject.file('local.properties')
 if (secretPropsFile.exists()) {

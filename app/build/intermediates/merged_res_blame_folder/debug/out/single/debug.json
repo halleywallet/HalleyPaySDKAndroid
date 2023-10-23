@@ -1,186 +1,186 @@
 [
     {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-mdpi_bg_button.png.flat",
-        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-mdpi/bg_button.png"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-xxhdpi_bank_card.png.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-xxhdpi/bank_card.png"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/font_dana_en_num_regular.ttf.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/font/dana_en_num_regular.ttf"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-xhdpi_bank_card.png.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-xhdpi/bank_card.png"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-anydpi-v24_payment_image_wallet.xml.flat",
-        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-anydpi-v24/payment_image_wallet.xml"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-xhdpi_bg_button.png.flat",
-        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-xhdpi/bg_button.png"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-xhdpi_bank_card_second.png.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-xhdpi/bank_card_second.png"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable_ic_launcher_background.xml.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-mdpi_payment_image_wallet.png.flat",
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-mdpi_payment_image_wallet.png.flat",
         "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-mdpi/payment_image_wallet.png"
     },
     {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/font_dana_fa_num_bold.ttf.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/font/dana_fa_num_bold.ttf"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-xxxhdpi_payment_image_wallet.png.flat",
-        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-xxxhdpi/payment_image_wallet.png"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-xxxhdpi_bank_card.png.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-xxxhdpi/bank_card.png"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-xxhdpi_bank_card_second.png.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-xxhdpi/bank_card_second.png"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-hdpi_payment_image_wallet.png.flat",
-        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-hdpi/payment_image_wallet.png"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-ldpi_bg_button.png.flat",
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-ldpi_bg_button.png.flat",
         "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-ldpi/bg_button.png"
     },
     {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-xxhdpi_bg_button.png.flat",
-        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-xxhdpi/bg_button.png"
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-xxxhdpi_bg_button.png.flat",
-        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-xxxhdpi/bg_button.png"
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-ldpi_payment_image_wallet.png.flat",
-        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-ldpi/payment_image_wallet.png"
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable_phone.xml.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/drawable/phone.xml"
     },
     {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-xhdpi_payment_image_wallet.png.flat",
-        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-xhdpi/payment_image_wallet.png"
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-xxxhdpi_bank_card.png.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-xxxhdpi/bank_card.png"
     },
     {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/xml_data_extraction_rules.xml.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/xml/data_extraction_rules.xml"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/font_dana_en_num_bold.ttf.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/font/dana_en_num_bold.ttf"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/layout_activity_main.xml.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/layout/activity_main.xml"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/font_dan_fa_num_regular.ttf.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/font/dan_fa_num_regular.ttf"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-hdpi_bg_button.png.flat",
-        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-hdpi/bg_button.png"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-anydpi-v24_bg_button.xml.flat",
-        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-anydpi-v24/bg_button.xml"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable_ic_phone.xml.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/drawable/ic_phone.xml"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/xml_backup_rules.xml.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable_ic_tick_done.xml.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/drawable/ic_tick_done.xml"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable-xxhdpi_payment_image_wallet.png.flat",
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable_ic_back.xml.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-xhdpi_bank_card_second.png.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-xhdpi/bank_card_second.png"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-hdpi_bg_button.png.flat",
+        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-hdpi/bg_button.png"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-xxxhdpi_payment_image_wallet.png.flat",
+        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-xxxhdpi/payment_image_wallet.png"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/font_dan_fa_num_regular.ttf.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/font/dan_fa_num_regular.ttf"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable_ic_done.xml.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/drawable/ic_done.xml"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-xxhdpi_bg_button.png.flat",
+        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-xxhdpi/bg_button.png"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/font_dana_fa_num_bold.ttf.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/font/dana_fa_num_bold.ttf"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-xhdpi_bg_button.png.flat",
+        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-xhdpi/bg_button.png"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-hdpi_payment_image_wallet.png.flat",
+        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-hdpi/payment_image_wallet.png"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-xxhdpi_bank_card.png.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-xxhdpi/bank_card.png"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-xhdpi_bank_card.png.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-xhdpi/bank_card.png"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/font_dana_en_num_regular.ttf.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/font/dana_en_num_regular.ttf"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-xxhdpi_bank_card_second.png.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-xxhdpi/bank_card_second.png"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-mdpi_bg_button.png.flat",
+        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-mdpi/bg_button.png"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable_ic_phone.xml.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-anydpi-v24_bg_button.xml.flat",
+        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-anydpi-v24/bg_button.xml"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-xxxhdpi_bg_button.png.flat",
+        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-xxxhdpi/bg_button.png"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-ldpi_payment_image_wallet.png.flat",
+        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-ldpi/payment_image_wallet.png"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/font_dana_en_num_bold.ttf.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/font/dana_en_num_bold.ttf"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable_ic_tick_done.xml.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/drawable/ic_tick_done.xml"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-anydpi-v24_payment_image_wallet.xml.flat",
+        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-anydpi-v24/payment_image_wallet.xml"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable_test.xml.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/drawable/test.xml"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-xxhdpi_payment_image_wallet.png.flat",
         "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-xxhdpi/payment_image_wallet.png"
     },
     {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable_phone.xml.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/drawable/phone.xml"
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/drawable-xhdpi_payment_image_wallet.png.flat",
+        "source": "io.homangostar.halleywallet.app-pngs-27:/drawable-xhdpi/payment_image_wallet.png"
     },
     {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable_ic_back.xml.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/drawable/ic_back.xml"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable_ic_done.xml.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/drawable/ic_done.xml"
-    },
-    {
-        "merged": "io.homangostar.halleywallet.app-merged_res-32:/drawable_test.xml.flat",
-        "source": "io.homangostar.halleywallet.app-main-34:/drawable/test.xml"
+        "merged": "io.homangostar.halleywallet.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "io.homangostar.halleywallet.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
     }
 ]

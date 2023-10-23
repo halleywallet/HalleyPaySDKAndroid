@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "io.homangostar.halleywallet.app-mergeDebugResources-30:/values-normal-v4/values-normal-v4.xml",
+            "outputFile": "io.homangostar.halleywallet.app-mergeDebugResources-29:/values-normal-v4/values-normal-v4.xml",
             "map": [
                 {
                     "source": "D:\\android-project\\runnigApp\\HalleyWallet\\HalleyWallet\\build\\intermediates\\packaged_res\\debug\\values-normal-v4\\values-normal-v4.xml",

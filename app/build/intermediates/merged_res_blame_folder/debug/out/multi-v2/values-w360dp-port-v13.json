@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "io.homangostar.halleywallet.app-mergeDebugResources-30:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "io.homangostar.halleywallet.app-mergeDebugResources-29:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mojtaba\\.gradle\\caches\\transforms-3\\ec6d4d4fbd037b4a47d5dd7d1604c312\\transformed\\material-1.5.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\Mojtaba\\.gradle\\caches\\transforms-3\\f523676256110a9241f8134c2af0a088\\transformed\\material-1.5.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
