@@ -4,7 +4,7 @@
             "outputFile": "io.homangostar.halleywallet.app-mergeDebugResources-29:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mojtaba\\.gradle\\caches\\transforms-3\\f523676256110a9241f8134c2af0a088\\transformed\\material-1.5.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Mojtaba\\.gradle\\caches\\transforms-3\\17c83fca2002328be12748eab3b5a234\\transformed\\material-1.5.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

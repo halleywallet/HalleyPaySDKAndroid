@@ -1,14 +1,13 @@
 package io.homangostar.halleywallet
 
+import android.app.Application
 import android.content.Context
 import android.util.Log
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.multidex.MultiDex
-import androidx.multidex.MultiDexApplication
 import io.github.halleypay.HalleyPay
 import io.github.halleypay.callback.CallbackGetSecretKey
 
-class MyApplication : MultiDexApplication() {
+class MyApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
@@ -18,7 +17,6 @@ class MyApplication : MultiDexApplication() {
 
     override fun attachBaseContext(base: Context) {
         super.attachBaseContext(base)
-        MultiDex.install(this)
     }
 
     private fun setupTheme() {

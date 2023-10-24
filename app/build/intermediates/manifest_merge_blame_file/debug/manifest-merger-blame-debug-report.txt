@@ -85,7 +85,7 @@
 41        android:allowBackup="true"
 41-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:9:9-35
 42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-42-->[androidx.core:core:1.8.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\168adc9cd7ba6851856505d43f405e78\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+42-->[androidx.core:core:1.8.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\46af59a7cb7236b645eab10176262997\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 43        android:dataExtractionRules="@xml/data_extraction_rules"
 43-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:10:9-65
 44        android:debuggable="true"
@@ -103,76 +103,77 @@
 50-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:16:9-54
 51        android:supportsRtl="true"
 51-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:17:9-35
-52        android:usesCleartextTraffic="true" >
-52-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:18:9-44
-53        <activity
-53-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:21:9-34:20
-54            android:name="io.homangostar.halleywallet.presentation.activity.MainActivity"
-54-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:22:13-63
-55            android:exported="true"
-55-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:23:13-36
-56            android:screenOrientation="portrait"
-56-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:24:13-49
-57            android:theme="@style/Theme.HalleyWallet" >
-57-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:25:13-54
-58            <intent-filter>
-58-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:28:13-32:29
-59                <action android:name="android.intent.action.MAIN" />
-59-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:29:17-69
-59-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:29:25-66
-60
-61                <category android:name="android.intent.category.LAUNCHER" />
-61-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:31:17-77
-61-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:31:27-74
-62            </intent-filter>
-63        </activity>
-64        <activity
-64-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:9-58:20
-65            android:name="io.github.halleypay.presentation.activity.HalleyPayActivity"
-65-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-87
-66            android:exported="false"
-66-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-37
-67            android:theme="@style/Theme.HalleyWallet" >
-67-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-54
-68
-69            <!-- <intent-filter> -->
-70            <!-- <action android:name="android.intent.action.MAIN" /> -->
-71
+52        android:testOnly="true"
+53        android:usesCleartextTraffic="true" >
+53-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:18:9-44
+54        <activity
+54-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:21:9-34:20
+55            android:name="io.homangostar.halleywallet.presentation.activity.MainActivity"
+55-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:22:13-63
+56            android:exported="true"
+56-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:23:13-36
+57            android:screenOrientation="portrait"
+57-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:24:13-49
+58            android:theme="@style/Theme.HalleyWallet" >
+58-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:25:13-54
+59            <intent-filter>
+59-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:28:13-32:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:29:17-69
+60-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:29:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:31:17-77
+62-->D:\android-project\runnigApp\HalleyWallet\app\src\main\AndroidManifest.xml:31:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:9-58:20
+66            android:name="io.github.halleypay.presentation.activity.HalleyPayActivity"
+66-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-87
+67            android:exported="false"
+67-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-37
+68            android:theme="@style/Theme.HalleyWallet" >
+68-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-54
+69
+70            <!-- <intent-filter> -->
+71            <!-- <action android:name="android.intent.action.MAIN" /> -->
 72
-73            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-74            <!-- </intent-filter> -->
-75        </activity>
-76        <activity
-76-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:9-64:20
-77            android:name="io.github.halleypay.presentation.activity.BluetoothConfigActivity"
-77-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:13-93
-78            android:screenOrientation="portrait"
-78-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:13-49
-79            android:theme="@style/Theme.HalleyWallet" >
-79-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-54
-80        </activity>
-81
-82        <provider
-82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\36970ab303d0e7f7f276b896c78e10b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-83            android:name="androidx.startup.InitializationProvider"
-83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\36970ab303d0e7f7f276b896c78e10b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-84            android:authorities="io.homangostar.halleywallet.androidx-startup"
-84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\36970ab303d0e7f7f276b896c78e10b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-85            android:exported="false" >
-85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\36970ab303d0e7f7f276b896c78e10b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-86            <meta-data
-86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\36970ab303d0e7f7f276b896c78e10b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\36970ab303d0e7f7f276b896c78e10b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-88                android:value="androidx.startup" />
-88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\36970ab303d0e7f7f276b896c78e10b0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-89            <meta-data
-89-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mojtaba\.gradle\caches\transforms-3\e84307e5ce04d4e8b2d2cdcfd4d37de3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-90-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mojtaba\.gradle\caches\transforms-3\e84307e5ce04d4e8b2d2cdcfd4d37de3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-91                android:value="androidx.startup" />
-91-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mojtaba\.gradle\caches\transforms-3\e84307e5ce04d4e8b2d2cdcfd4d37de3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-92        </provider>
-93    </application>
-94
-95</manifest>
+73
+74            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+75            <!-- </intent-filter> -->
+76        </activity>
+77        <activity
+77-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:9-64:20
+78            android:name="io.github.halleypay.presentation.activity.BluetoothConfigActivity"
+78-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:13-93
+79            android:screenOrientation="portrait"
+79-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:13-49
+80            android:theme="@style/Theme.HalleyWallet" >
+80-->[:HalleyWallet] D:\android-project\runnigApp\HalleyWallet\HalleyWallet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-54
+81        </activity>
+82
+83        <provider
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\95193578301230c89596fc06ba8734c7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\95193578301230c89596fc06ba8734c7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+85            android:authorities="io.homangostar.halleywallet.androidx-startup"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\95193578301230c89596fc06ba8734c7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+86            android:exported="false" >
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\95193578301230c89596fc06ba8734c7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\95193578301230c89596fc06ba8734c7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\95193578301230c89596fc06ba8734c7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mojtaba\.gradle\caches\transforms-3\95193578301230c89596fc06ba8734c7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mojtaba\.gradle\caches\transforms-3\cf0ba198a665e2b49c42abb46cb7f8e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mojtaba\.gradle\caches\transforms-3\cf0ba198a665e2b49c42abb46cb7f8e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+92                android:value="androidx.startup" />
+92-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mojtaba\.gradle\caches\transforms-3\cf0ba198a665e2b49c42abb46cb7f8e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+93        </provider>
+94    </application>
+95
+96</manifest>
