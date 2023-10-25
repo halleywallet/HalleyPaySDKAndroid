@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff9520b4-9348-48a2-b615-532365031815" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HalleyWallet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/HalleyWallet/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="bd1d898aa45da583014baf40fa20178e8a2e90e2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,7 +116,7 @@
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
     "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
-    "last_opened_file_path": "D:/android-project/runnigApp/HalleyWallet/HalleyWallet",
+    "last_opened_file_path": "D:/android-project/runnigApp/HalleyWallet/app",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
@@ -133,11 +131,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\android-project\runnigApp\HalleyWallet\app" />
+      <recent name="D:\android-project\runnigApp\HalleyWallet" />
       <recent name="D:\android-project\runnigApp\HalleyWallet\app\src\main\java\ir\millennium\halleywallet\presentation\activity" />
       <recent name="D:\android-project\runnigApp\HalleyWallet\HalleyWallet\src\main\java\ir\github\halleywallet\data\repository\remote" />
       <recent name="D:\android-project\runnigApp\HalleyWallet\HalleyWallet\src\main\assets" />
-      <recent name="D:\android-project\runnigApp\HalleyWallet\HalleyWallet\src\main\res" />
-      <recent name="D:\android-project\runnigApp\HalleyWallet\HalleyWallet\src\main\java\ir\github\halleywallet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\android-project\runnigApp\HalleyWallet\scripts" />
@@ -344,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HalleyWallet [androidSourcesJar]" />
-        <item itemvalue="Gradle.HalleyWallet [HalleyPay:publishReleasePublicationToMavenRepository]" />
-        <item itemvalue="Gradle.HalleyWallet [HalleyWallet:publishReleasePublicationToMavenRepository]" />
         <item itemvalue="Gradle.HalleyWallet [publish[Publication]ToCustomMavenRepoRepository Gradle]" />
         <item itemvalue="Gradle.HalleyWallet [halleywallet:publishReleasePublicationToMavenRepository]" />
+        <item itemvalue="Gradle.HalleyWallet [HalleyWallet:publishReleasePublicationToMavenRepository]" />
+        <item itemvalue="Gradle.HalleyWallet [HalleyPay:publishReleasePublicationToMavenRepository]" />
+        <item itemvalue="Gradle.HalleyWallet [androidSourcesJar]" />
       </list>
     </recent_temporary>
   </component>
