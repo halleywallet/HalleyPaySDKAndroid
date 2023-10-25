@@ -2,7 +2,6 @@
 buildscript {
     dependencies {
         classpath 'io.github.gradle-nexus:publish-plugin:1.1.0'
-//        classpath 'com.android.tools.build:gradle:8.2.0'
     }
 }
 
@@ -14,6 +13,25 @@ plugins {
 
 apply plugin: 'io.github.gradle-nexus.publish-plugin'
 
-ext["signing.keyId"] = '4DC86EC8'
-ext["signing.password"] = 'Mm13741122'
-ext["signing.secretKeyRingFile"] = 'SecretRingKey.gpg'
+def getSigningKeyId() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    return properties.getProperty("signing.keyId")
+}
+
+def getSigningPassword() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    return properties.getProperty("signing.password")
+}
+
+def getSigningSecretKeyRingFile() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    return properties.getProperty("signing.secretKeyRingFile")
+}
+ext["signing.keyId"] = getSigningKeyId()
+ext["signing.password"] = getSigningPassword()
+ext["signing.secretKeyRingFile"] = getSigningSecretKeyRingFile()
+
+apply from: "${rootProject.projectDir}/scripts/publish-root.gradle"

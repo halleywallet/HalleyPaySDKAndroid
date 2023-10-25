@@ -1,44 +1,27 @@
-// Create variables with empty default values
-//ext["signing.keyId"] = '4DC86EC8'
-//ext["signing.password"] = 'Mm13741122'
-//ext["signing.secretKeyRingFile"] = 'SecretRingKey.gpg'
-////ext["ossrhUsername"] = 'halleywallet'
-////ext["ossrhPassword"] = 'St13741122!@'
-////ext["sonatypeStagingProfileId"] = '4aa472a6ba1583'
-//ext["ossrhUsername"] = BuildConfig.ossrhUsername
-//ext["ossrhPassword"] = BuildConfig.ossrhPassword
-//ext["sonatypeStagingProfileId"] = BuildConfig.sonatypeStagingProfileId
-
-ext["signing.keyId"] = ''
-ext["signing.password"] = ''
-ext["signing.secretKeyRingFile"] = ''
-ext["ossrhUsername"] = ''
-ext["ossrhPassword"] = ''
-ext["sonatypeStagingProfileId"] = ''
-
-File secretPropsFile = project.rootProject.file('local.properties')
-if (secretPropsFile.exists()) {
-    // Read local.properties file first if it exists
-    Properties p = new Properties()
-    new FileInputStream(secretPropsFile).withCloseable { is -> p.load(is) }
-    p.each { name, value -> ext[name] = value }
-} else {
-    // Use system environment variables
-    ext["ossrhUsername"] = System.getenv('OSSRH_USERNAME')
-    ext["ossrhPassword"] = System.getenv('OSSRH_PASSWORD')
-    ext["sonatypeStagingProfileId"] = System.getenv('SONATYPE_STAGING_PROFILE_ID')
-    ext["signing.keyId"] = System.getenv('SIGNING_KEY_ID')
-    ext["signing.password"] = System.getenv('SIGNING_PASSWORD')
-    ext["signing.secretKeyRingFile"] = System.getenv('SIGNING_SECRET_KEY_RING_FILE')
+def getOssrhUsername() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    return properties.getProperty("ossrhUsername")
 }
 
-// Set up Sonatype repository
+def getOssrhPassword() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    return properties.getProperty("ossrhPassword")
+}
+
+def getSonatypeStagingProfileId() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    return properties.getProperty("sonatypeStagingProfileId")
+}
+
 nexusPublishing {
     repositories {
         sonatype {
-            stagingProfileId = sonatypeStagingProfileId
-            username = ossrhUsername
-            password = ossrhPassword
+            stagingProfileId = getSonatypeStagingProfileId()
+            username = getOssrhUsername()
+            password = getOssrhPassword()
             nexusUrl.set(uri("https://s01.oss.sonatype.org/service/local/"))
             snapshotRepositoryUrl.set(uri("https://s01.oss.sonatype.org/content/repositories/snapshots/"))
         }

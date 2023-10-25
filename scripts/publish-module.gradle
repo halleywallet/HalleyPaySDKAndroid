@@ -17,7 +17,7 @@ artifacts {
 group = PUBLISH_GROUP_ID
 version = PUBLISH_VERSION
 
-afterEvaluate {
+project.afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
@@ -31,12 +31,12 @@ afterEvaluate {
                 if (project.plugins.findPlugin("io.github.halleywallet")) {
                     from components.release
                 } else {
-                    artifact("$buildDir/libs/${project.getName()}-${version}.jar")
+//                    artifact("$buildDir/libs/${project.getName()}-${version}.jar")
+                    artifact("$buildDir/libs/HalleyPaySDK_Android-${version}.jar")
                 }
 
                 artifact androidSourcesJar
 
-                // Mostly self-explanatory metadata
                 pom {
                     name = PUBLISH_ARTIFACT_ID
                     description = PUBLISH_DESCRIPTION
@@ -65,9 +65,27 @@ afterEvaluate {
     }
 }
 
-ext["signing.keyId"] = rootProject.ext["signing.keyId"]
-ext["signing.password"] = rootProject.ext["signing.password"]
-ext["signing.secretKeyRingFile"] = rootProject.ext["signing.secretKeyRingFile"]
+def getSigningKeyId() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    return properties.getProperty("signing.keyId")
+}
+
+def getSigningPassword() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    return properties.getProperty("signing.password")
+}
+
+def getSigningSecretKeyRingFile() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    return properties.getProperty("signing.secretKeyRingFile")
+}
+
+ext["signing.keyId"] = getSigningKeyId()
+ext["signing.password"] = getSigningPassword()
+ext["signing.secretKeyRingFile"] = getSigningSecretKeyRingFile()
 
 signing {
     sign publishing.publications

@@ -62,11 +62,10 @@ dependencies {
     implementation "me.relex:circleindicator:2.1.6"
 }
 
-
 ext {
     PUBLISH_GROUP_ID = 'io.github.halleywallet'
-    PUBLISH_VERSION = '1.0.0'
-    PUBLISH_ARTIFACT_ID = 'halleywallet'
+    PUBLISH_VERSION = '1.0.1'
+    PUBLISH_ARTIFACT_ID = 'HalleyPaySDK_Android'
     PUBLISH_DESCRIPTION = 'Halley Wallet SDK'
     PUBLISH_URL = 'https://github.com/halleywallet/HalleyPaySDK_Android'
     PUBLISH_LICENSE_NAME = 'Apache License'

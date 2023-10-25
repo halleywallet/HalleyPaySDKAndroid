@@ -4,7 +4,9 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-parcelize'
     id 'kotlin-kapt'
+    id 'maven-publish'
 }
+
 android {
     namespace 'io.homangostar.halleywallet'
     compileSdk 33
@@ -48,5 +50,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
 }
+
+
 
 
