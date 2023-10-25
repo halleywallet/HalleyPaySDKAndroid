@@ -17,13 +17,13 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onStart
 
-class HalleyPayNew {
+object HalleyPay {
 
-    private val coroutinesScope: CoroutineScope = CoroutineScope(Dispatchers.IO)
+    private val coroutinesScope = CoroutineScope(Dispatchers.IO)
 
     private var secretKey: String? = null
 
-    private var codeCountry: String? = null
+    private var countryCode: String? = null
     private var userPhone: String? = null
     private var appKey: String? = null
 
@@ -31,15 +31,15 @@ class HalleyPayNew {
 
     var callback: CallbackGetSecretKey? = null
 
-    fun configure(context: Context, codeCountry: String, userPhone: String, appKey: String) {
-        this.codeCountry = codeCountry
+    fun configure(context: Context, countryCode: String, userPhone: String, appKey: String) {
+        this.countryCode = countryCode
         this.userPhone = userPhone
         this.appKey = appKey
         getSecretKeyUseCase =
             RetrofitClientImpl.buildApiNonCache(context)
                 ?.let { RemoteRepositoryImpl(it) }?.let { GetSecretKeyUseCase(it) }!!
         val params = HashMap<String, Any>()
-        params["mobile_prefix"] = codeCountry
+        params["mobile_prefix"] = countryCode
         params["mobile"] = userPhone
         params["app_key"] = appKey
         getSecretKey(params)
@@ -61,7 +61,7 @@ class HalleyPayNew {
 
     fun start(activity: Activity, secretKey: String) {
 
-        if (codeCountry?.isEmpty() == true) {
+        if (countryCode?.isEmpty() == true) {
             Log.d("HalleyWallet:", "Code country is wrong")
         } else if (userPhone?.isEmpty() == true || userPhone?.length != 10) {
             Log.d("HalleyWallet:", "user phone is wrong")

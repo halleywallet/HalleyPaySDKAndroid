@@ -1,41 +1,39 @@
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
 
-task androidSourcesJar(type: Jar) {
-    archiveClassifier.set('sources')
-    if (project.plugins.findPlugin("io.github.halleywallet")) {
-        from android.sourceSets.main.java.srcDirs
-    } else {
-        from android.sourceSets.main.java.srcDirs
-    }
-}
-
-artifacts {
-    archives androidSourcesJar
-}
+// for when use .jar file for publish
+//task androidSourcesJar(type: Jar) {
+//    archiveClassifier.set('sources')
+//    if (project.plugins.findPlugin("io.github.halleywallet")) {
+//        from android.sourceSets.main.java.srcDirs
+//    } else {
+//        from android.sourceSets.main.java.srcDirs
+//    }
+//}
+//artifacts {
+//    archives androidSourcesJar
+//}
 
 group = PUBLISH_GROUP_ID
 version = PUBLISH_VERSION
+
 
 project.afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                // The coordinates of the library, being set from variables that
-                // we'll set up later
+
                 groupId PUBLISH_GROUP_ID
                 artifactId PUBLISH_ARTIFACT_ID
                 version PUBLISH_VERSION
 
-                // Two artifacts, the `aar` (or `jar`) and the sources
-                if (project.plugins.findPlugin("io.github.halleywallet")) {
-                    from components.release
-                } else {
-//                    artifact("$buildDir/libs/${project.getName()}-${version}.jar")
-                    artifact("$buildDir/libs/HalleyPaySDK_Android-${version}.jar")
-                }
+//              from components.release  // release original code
 
-                artifact androidSourcesJar
+//              artifact("$buildDir/libs/${project.getName()}-${version}.jar") // release with jar file. this way has problem
+//              artifact androidSourcesJar
+
+                // this way hides the codes
+                artifact("$buildDir/outputs/aar/HalleyWallet-release.aar")
 
                 pom {
                     name = PUBLISH_ARTIFACT_ID
@@ -60,6 +58,7 @@ project.afterEvaluate {
                         url = PUBLISH_SCM_URL
                     }
                 }
+
             }
         }
     }

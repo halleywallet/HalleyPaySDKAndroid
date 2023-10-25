@@ -1,4 +1,4 @@
-#Wed Oct 25 10:46:12 IRST 2023
+#Wed Oct 25 14:12:55 IRST 2023
 base.0=D\:\\android-project\\runnigApp\\HalleyWallet\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\android-project\\runnigApp\\HalleyWallet\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\10\\classes.dex
 base.10=D\:\\android-project\\runnigApp\\HalleyWallet\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\8\\classes.dex
